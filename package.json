@@ -1,0 +1,16 @@
+{
+  "name": "skillbridge-certificates",
+  "version": "1.0.0",
+  "description": "Tamper-proof skill certificates for SkillBridge learners on Ethereum",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js",
+    "hash": "node scripts/hash-project.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  }
+}
